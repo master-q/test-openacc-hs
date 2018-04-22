@@ -1,3 +1,5 @@
 .stack-work/
 test-openacc-hs.cabal
 *~
+core
+/lib/

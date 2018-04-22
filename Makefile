@@ -11,6 +11,6 @@ run:
 
 clean:
 	stack clean
-	rm -rf lib
+	rm -rf lib core
 
 .PHONY: clean run
