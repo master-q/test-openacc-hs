@@ -3,7 +3,7 @@
 
 lib/libtestacc.so: cbits/acc.c
 	mkdir -p lib
-	/opt/pgi/linux86-64/17.10/bin/pgcc -shared -fpic -fast -acc -ta=tesla,cc60 -o lib/libtestacc.so cbits/acc.c
+	/opt/pgi/linux86-64/17.10/bin/pgcc -shared -fpic -fast -acc -ta=tesla,cc60,nordc -o lib/libtestacc.so cbits/acc.c
 
 run:
 	ulimit -c unlimited
